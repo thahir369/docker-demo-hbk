@@ -12,7 +12,7 @@ public class DockerDemoHbkApplication {
 
 	@GetMapping("/")
 	public String home(){
-		return "This is sample application to convert into docker image and push into docker hub";
+		return "<h2>This is sample application to convert into docker image and push into docker hub<h2>";
 	}
 
 	public static void main(String[] args) {
